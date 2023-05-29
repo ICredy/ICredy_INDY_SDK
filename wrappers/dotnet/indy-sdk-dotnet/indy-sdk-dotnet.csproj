@@ -1,7 +1,7 @@
 ﻿<Project Sdk="MSBuild.Sdk.Extras/2.0.54">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net452;xamarinios10</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;net452;</TargetFrameworks>
     <AssemblyName>Hyperledger.Indy</AssemblyName>
     <RootNamespace>Hyperledger.Indy</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -28,11 +28,11 @@ Please note that to function the C-Callable Hyperledger Indy SDK and its depende
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="LibLog" Version="5.0.2">
+    <PackageReference Include="LibLog" Version="5.0.8">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.CSharp" Version="4.5.0" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
   </ItemGroup>
 
 </Project>

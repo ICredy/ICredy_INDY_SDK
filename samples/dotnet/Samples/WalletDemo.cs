@@ -17,15 +17,15 @@ namespace Hyperledger.Indy.Samples
         {
             Console.Write("Executing wallet sample... ");
 
-            var firstWalletConfig = "{\"id\":\"my_wallet\"}";
-            var secondWalletConfig = "{\"id\":\"their_wallet\"}";
+            var firstWalletConfig = "{\"id\":\"my_wallets6\"}";
+            var secondWalletConfig = "{\"id\":\"their_wallets6\"}";
 
-            var firstWalletCredentials = "{\"key\":\"my_wallet_key\"}";
-            var secondWalletCredentials = "{\"key\":\"their_wallet_key\"}";
+            var firstWalletCredentials = "{\"key\":\"my_wallets6_key\"}";
+            var secondWalletCredentials = "{\"key\":\"their_wallets6_key\"}";
 
             try
-            {
-                // Create and Open First Wallet
+            { 
+                 // Create and Open First Wallet
                 await WalletUtils.CreateWalletAsync(firstWalletConfig, firstWalletCredentials);
 
                 using (var firstWallet = await Wallet.OpenWalletAsync(firstWalletConfig, firstWalletCredentials))

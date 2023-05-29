@@ -18,13 +18,13 @@ namespace Hyperledger.Indy.Samples
         {
             Console.Write("Executing ledger sample (requires local pool node)... ");
 
-            var myWalletConfig = "{\"id\":\"my_wallet\"}";
-            var theirWalletConfig = "{\"id\":\"their_wallet\"}";
+            var myWalletConfig = "{\"id\":\"my_wallets6\"}";
+            var theirWalletConfig = "{\"id\":\"their_wallets6\"}";
 
-            var trusteeSeed = "000000000000000000000000Trustee1";
+            var trusteeSeed = "000000000000000000000000Trustee2";
 
-            var myWalletCredentials = "{\"key\":\"issuer_wallet_key\"}";
-            var theirWalletCredentials = "{\"key\":\"prover_wallet_key\"}";
+            var myWalletCredentials = "{\"key\":\"issuer_wallets6_key\"}";
+            var theirWalletCredentials = "{\"key\":\"prover_wallets6_key\"}";
 
             try
             {

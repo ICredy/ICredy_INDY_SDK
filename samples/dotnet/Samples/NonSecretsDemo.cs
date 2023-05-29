@@ -17,8 +17,8 @@ namespace Hyperledger.Indy.Samples
         {
             Console.Write("Executing non-secrets sample... ");
 
-            var myWalletConfig = "{\"id\":\"my_wallet\"}";
-            var myWalletCredentials = "{\"key\":\"my_wallet_key\"}";
+            var myWalletConfig = "{\"id\":\"my_wallets6\"}";
+            var myWalletCredentials = "{\"key\":\"my_wallets6_key\"}";
 
             try
             {

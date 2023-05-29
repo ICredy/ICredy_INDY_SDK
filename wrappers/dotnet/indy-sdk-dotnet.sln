@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27004.2002
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "indy-sdk-dotnet", "indy-sdk-dotnet\indy-sdk-dotnet.csproj", "{5C97C715-D7E2-42B7-A363-4A54C11DC8B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "indy-sdk-dotnet", "indy-sdk-dotnet\indy-sdk-dotnet.csproj", "{5C97C715-D7E2-42B7-A363-4A54C11DC8B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "indy-sdk-dotnet-test", "indy-sdk-dotnet-test\indy-sdk-dotnet-test.csproj", "{D5DF480F-45B3-47D8-8C30-65A4DF0007D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "indy-sdk-dotnet-test", "indy-sdk-dotnet-test\indy-sdk-dotnet-test.csproj", "{D5DF480F-45B3-47D8-8C30-65A4DF0007D7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "indy-sdk-dotnet-doc", "indy-sdk-dotnet-doc\indy-sdk-dotnet-doc.csproj", "{9FAB78CF-D983-49A2-9ED3-EA53A6E0A40F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples", "..\..\samples\dotnet\Samples\Samples.csproj", "{BEBB8C67-5512-498C-A116-00B9734C1B41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{9FAB78CF-D983-49A2-9ED3-EA53A6E0A40F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FAB78CF-D983-49A2-9ED3-EA53A6E0A40F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FAB78CF-D983-49A2-9ED3-EA53A6E0A40F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEBB8C67-5512-498C-A116-00B9734C1B41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEBB8C67-5512-498C-A116-00B9734C1B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEBB8C67-5512-498C-A116-00B9734C1B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEBB8C67-5512-498C-A116-00B9734C1B41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
