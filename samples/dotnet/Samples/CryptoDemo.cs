@@ -18,7 +18,7 @@ namespace Hyperledger.Indy.Samples
         {
             Console.Write("Executing crypto sample... ");
 
-            var myWalletConfig = "{\"id\":\"my_wallets5\"}";
+            var myWalletConfig = "{\"id\":\"my_wallets6\"}";
             var theirWalletConfig = "{\"id\":\"their_wallets6\"}";
 
             var myWalletCredentials = "{\"key\":\"my_wallets6_key\"}";
