@@ -1,0 +1,139 @@
+/* Set a background color for the entire page */
+body {
+  background-color: #F0F0F0;
+}
+
+/* Center the content vertically and horizontally */
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style the blog section */
+.blog-section {
+  text-align: center;
+}
+
+/* Style the heading */
+h2 {
+  font-size: 24px; /* Adjust font size for smaller screens */
+  font-weight: bold;
+  margin-bottom: 25px; /* Reduce margin for smaller screens */
+}
+
+/* Style the container */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 15px; /* Reduce padding for smaller screens */
+}
+
+/* Style the blog list */
+.blog-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px; /* Reduce gap for smaller screens */
+  margin-top: 20px; /* Reduce margin for smaller screens */
+}
+
+/* Style each blog item */
+.blog {
+  background-color: #fff;
+  padding: 15px; /* Reduce padding for smaller screens */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+/* Style the blog images */
+.blog img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Style the blog titles */
+.blog h3 {
+  font-size: 18px; /* Adjust font size for smaller screens */
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #000066;
+}
+
+/* Style the blog excerpts */
+.blog .excerpt {
+  color: #888;
+  margin-bottom: 12px; /* Reduce margin for smaller screens */
+}
+
+/* Style the read more links */
+.blog .read-more {
+  color: #000066;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.blog .read-more:hover {
+  text-decoration: underline;
+}
+
+/* Style the read more link arrows */
+.blog .read-more span {
+  margin-left: 3px; /* Reduce margin for smaller screens */
+}
+
+/* Hover effect on the blog items */
+.blog:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  /* Center the content vertically and horizontally */
+  #content {
+    height: auto;
+    padding-top: 30px;
+  }
+
+  /* Reduce font size for smaller screens */
+  h1, h2 {
+    font-size: 22px; /* Adjust font size for smaller screens */
+  }
+
+  /* Adjust blog list layout for smaller screens */
+  .blog-list {
+    grid-template-columns: 1fr; /* Switch to single column on smaller screens */
+    gap: 15px; /* Reduce gap for smaller screens */
+  }
+
+  /* Adjust blog item styles for smaller screens */
+  .blog {
+    padding: 12px;
+    margin-bottom: 15px;
+  }
+
+  .blog img {
+    margin-bottom: 8px;
+  }
+
+  .blog h3 {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  .blog .excerpt {
+    margin-bottom: 10px;
+  }
+
+  /* Adjust read more link styles for smaller screens */
+  .blog .read-more {
+    font-size: 14px;
+  }
+
+  .blog .read-more span {
+    margin-left: 2px;
+  }
+}

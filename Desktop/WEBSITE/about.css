@@ -1,0 +1,86 @@
+body {
+  background-color: #f8f8f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-bar {
+  background-color: #333;
+  padding: 20px;
+}
+
+.menu-bar h1 {
+  color: #fff;
+  margin: 0;
+  font-size: 26px;
+  text-align: center;
+}
+
+.about-page {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+/* Adjust for mobile devices */
+.about-page .content {
+  margin: 0 auto;
+  padding: 20px; /* Reduce padding to save space on small screens */
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-page h2 {
+  color: #000066;
+  font-size: 22px; /* Slightly reduce font size for small screens */
+  margin-bottom: 15px; /* Reduce margin to save space */
+  margin-top: 30px; /* Reduce margin to save space */
+}
+
+.about-page i {
+  margin-right: 5px; /* Reduce margin to save space */
+}
+
+.about-page p {
+  color: #333333;
+  font-size: 16px; /* Slightly reduce font size for small screens */
+  margin-bottom: 15px; /* Reduce margin to save space */
+  margin-left: 10px; /* Reduce margin to save space */
+  margin-right: 10px; /* Reduce margin to save space */
+}
+
+.about-page p strong {
+  font-weight: bold;
+}
+
+.about-page h2:first-child {
+  margin-top: 0;
+}
+
+.about-page h2:last-child,
+.about-page p:last-child {
+  margin-bottom: 30px; /* Reduce margin to save space */
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 600px) {
+  .menu-bar h1 {
+    font-size: 22px; /* Adjust font size for smaller screens */
+  }
+
+  .about-page .content {
+    padding: 10px; /* Reduce padding further for small screens */
+  }
+
+  .about-page h2 {
+    font-size: 20px; /* Adjust font size for smaller screens */
+  }
+
+  .about-page p {
+    font-size: 15px; /* Adjust font size for smaller screens */
+    margin-left: 5px; /* Reduce margin to save space */
+    margin-right: 5px; /* Reduce margin to save space */
+  }
+}

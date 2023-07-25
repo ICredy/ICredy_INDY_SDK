@@ -1,0 +1,123 @@
+.blog1 {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #F0F0F0;
+}
+
+/* CSS code for image resizing */
+.img11 {
+  width: 1300px;
+  height: 400px;
+  margin-left: 116px;
+  margin-right:20px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+
+}
+
+.img12 {
+  width: 600px;
+  height:350px;
+  margin-left: 10px;
+  margin-right:px;
+  float: right;
+}
+
+.img13 {
+  width: 500px;
+  height: 275px;
+  margin-left: 10px;
+  margin-right: 34px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+ float: left;
+}
+
+.img14 {
+  width: 450px;
+  height: 300px;
+  float: right;
+}
+
+.img15 {
+  width: 600px;
+  height: 300px;
+display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-bottom: 20px;
+ }
+
+.blog1 h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+
+  color: #000066;
+}
+
+.blog1 .content {
+  margin-bottom: 20px;
+}
+
+
+.blog1 p {
+  line-height: 1.5;
+  font-size: 18px;
+  margin-left: 15px;
+  margin-bottom: 40px;
+  color: black;
+}
+
+.blog11 {
+  margin-bottom: 30px;
+}
+
+.blog12, .blog13, .blog14, .blog15 {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.blog12 h2, .blog13 h2, .blog15 h2 {
+  font-size: 29px;
+  color: #FF0099;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+.blog14 h2 {
+  font-size: 29px;
+  color: #FF0099;
+  margin-bottom: 10px;
+  margin-top: 90px;
+  margin-left: 10px;
+}
+
+.blog12 p, .blog13 p, .blog14 p, .blog15 p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.blog12 ol, .blog13 ul, .blog14 ul {
+  margin-left: 40px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+}
+
+.blog12 ol li, .blog13 ul li, .blog14 ul li {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #404040;
+}
+
+ul strong {
+  color: #CC66FF;
+}
+
+ol strong {
+  color: #CC66FF;
+}

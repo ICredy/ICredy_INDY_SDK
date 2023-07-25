@@ -1,0 +1,95 @@
+body {
+  background-color: #D0D0D0;
+  color: #333333;
+  
+  margin: 0;
+  padding: 0;
+}
+
+.content.career-page {
+  text-align: center;
+  background-color: #F0F0F0;
+  padding: 40px;
+}
+
+.content.career-page h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-family: "Georgia", serif;
+  color: #000066;
+}
+
+section {
+  background-color: #D0D0D0;
+  padding: 40px;
+  text-align: center;
+}
+
+section h2 {
+  color: #000066;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: "Helvetica", sans-serif;
+}
+
+section p {
+  font-size: 18px;
+  font-family: "Calibri", sans-serif;
+
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+section ul {
+  list-style: disc;
+  text-align: left;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+section ul li {
+  font-size: 18px;
+  font-family: "Calibri", sans-serif;
+
+  line-height: 1.5;
+}
+
+section img.img14 {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+section#introduction {
+  background-color: #D0D0D0;
+}
+
+section#why-join-us {
+  background-color: #f2f2f2;
+}
+
+section#diversity-inclusion {
+  background-color: #D0D0D0;
+}
+
+section#benefits {
+  background-color: #f2f2f2;
+}
+
+section#how-to-apply {
+  background-color: #D0D0D0;
+}
+
+section#ideal-candidates {
+  background-color: #f2f2f2;
+}
+
+
+
+
+
+
